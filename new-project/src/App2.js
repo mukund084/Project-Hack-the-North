@@ -93,7 +93,7 @@ function MyComponent() {
       <h1
         style={{ textAlign: "center", minWidth: "1100px", paddingTop: "15px" }}
       >
-        Neigborhoodr-Info
+        Neighborhood-Info
       </h1>
       <GoogleMap
         mapContainerStyle={containerStyle}
