@@ -1,0 +1,40 @@
+/* css for the App */
+.App {
+  text-align: center;
+  font-family: "Karla", sans-serif;
+  font-weight: bold;
+}
+
+/* css for the google map */
+.googlemap {
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+/* css for the pop-up info window for when a marker is selected */
+.gm-style .gm-style-iw-c {
+  padding-right: 10px !important;
+  padding-bottom: 0px !important;
+  max-width: 500px !important;
+  max-height: 326px !important;
+  min-width: 0px !important;
+  position: absolute;
+  box-sizing: border-box;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -100%);
+  background-color: rgb(255, 213, 79);
+  border-radius: 8px;
+  box-shadow: 0 2px 7px 1px rgba(0, 0, 0, 0.3);
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content-wrap {
+  flex: 1;
+}
